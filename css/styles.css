@@ -58,7 +58,7 @@ img {
 
 .page-header {
 
-    border: 1px solid rgba(236, 236, 236, 1);
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
                 
 .logo {
@@ -100,8 +100,6 @@ img {
 .site-nav {
     
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     justify-content: center;
 
     font-weight: 500;
@@ -141,6 +139,9 @@ a {
 
 .link {
     
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--title-text-color);
 }
 
@@ -160,13 +161,15 @@ a {
 
 .hero {
 
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--background-black);
+    
 }
        
 .hero-box{ 
     
-    padding-top:200px;
-    padding-bottom: 200px;
     margin-left:auto;
     margin-right: auto;
     width: 696px;
@@ -221,10 +224,16 @@ a {
     
         /*Принципи*/
 
+.section {
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: space-between;
+
+}
+
 .section-title {
 
-    margin-right: 30px;
-    
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -233,18 +242,10 @@ a {
     
 }
 
-.list-box{
-    
-    padding-top:94px;
-    padding-bottom: 94px;
-
-}
-
 .section-text {
 
     margin-top: 10px;
-    margin-right: 30px;
-    
+   
     color: var(--paragraph-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -253,35 +254,15 @@ a {
 
 }
 
-.iteam {
-    
-    text-align: center;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 
-    background-color: var(--background-white);
-    width: 270px;
-}
-
-.team-descr {
-    
-    margin-top: 30px;
-    margin-bottom:30px;
-    margin-right:auto;
-    margin-left:auto;
-}
         
         /*Приклади*/
 
 .post {
+
+    padding-bottom: 94px;
     
     background-color: var(--background-white);   
-}
-
-.post-box {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .post .post-title {
@@ -300,14 +281,37 @@ a {
 .post-photo {
     
     display: block;
+    justify-content: space-between;
 }
 
         /*Команда*/
 
 .team {
 
+    padding-top: 94px;
+    padding-bottom: 94px;
+
    background-color: var(--background-beige);
 
+}
+
+.iteam {
+
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    background-color: var(--background-white);
+    width: 270px;
+}
+
+.team-descr {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .list {
@@ -318,9 +322,8 @@ a {
 
 .team-title {
 
-    margin-top: 0;
     margin-bottom: 50px;
-    
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -332,12 +335,6 @@ a {
 .team-photo {
 
     display: block;
-}
-
-.team-box{
-    
-    padding-top:94px;
-    padding-bottom: 94px;
 }
 
 .team-subtitle {
@@ -371,6 +368,12 @@ footer {
 
 }
 
+.basement {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .basement .link {
 
     color: var(--primary-white-color);
@@ -389,11 +392,7 @@ footer {
 
 }
 
-.basement-box {
-    
-    padding-top:60px;
-    padding-bottom:60px;
-}
+
 
 .logo-footer {
     
@@ -496,6 +495,11 @@ footer {
     margin-bottom: 20px;
 }
 
+.flex-hat {
+
+    padding-bottom: 20px;
+
+}
 .portfolio-title {
 
     margin-bottom: 4px;
@@ -511,7 +515,7 @@ footer {
 
 .portfolio-text {
 
-    padding-bottom: 20px;
+    
     padding-left: 24px;
     padding-right: 24px;
     
