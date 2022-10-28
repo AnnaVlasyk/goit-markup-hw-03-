@@ -62,7 +62,8 @@ img {
 }
 
 .logo-hat {
-        padding-top: 24px;
+    
+    padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
 }
@@ -390,12 +391,20 @@ display: block;
 
 .container .portfolio {
 
-    display: flex;
+    
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.button-box {
+
+    display: block;
+    width: 575px;
+    margin-top: 94px;
+    margin-bottom: 34px;
 }
 
 .portfolio-button {
