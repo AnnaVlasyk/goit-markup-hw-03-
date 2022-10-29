@@ -139,10 +139,13 @@ a {
 
 .link {
     
+   color: var(--title-text-color);
+}
+
+.logo-link {
+
     padding-top: 32px;
     padding-bottom: 32px;
-    
-    color: var(--title-text-color);
 }
 
 .current {
@@ -426,17 +429,6 @@ footer {
     margin-left: auto;
 }
 
-.button-box {
-
-    display: block;
-    width: 575px;
-    padding-top: 94px;
-    padding-bottom: 34px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-
 .portfolio-button {
    
     padding: 6px 22px;
@@ -455,6 +447,17 @@ footer {
        
 }
 
+.btn {
+
+    
+    width: 575px;
+    padding-top: 94px;
+    padding-bottom: 34px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
 
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -467,7 +470,7 @@ footer {
 
 }
 
-.flex-container .flex-element {
+.flex-element {
     
     display: flex;
     flex-wrap: wrap;
@@ -475,11 +478,10 @@ footer {
 
 }
 
-.flex-element li {
+.flex-element .item {
     
     width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 0 30px 30px 0;
     border: 1px solid rgba(238, 238, 238, 1);
     background-color: rgba(255, 255, 255, 1);
 
@@ -497,7 +499,7 @@ footer {
 
 .flex-hat {
 
-    padding-bottom: 20px;
+    padding: 20px 24px;
 
 }
 .portfolio-title {
