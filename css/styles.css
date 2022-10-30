@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5,h6,p {
     padding-left: 15px;
     margin-left:auto;
     margin-right: auto;
+    outline: 5px solid blueviolet;
   
 }
 
@@ -44,10 +45,14 @@ h1,h2,h3,h4,h5,h6,p {
          
 .list {
     
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
 }
+
+
 
 img {
     
@@ -317,11 +322,7 @@ a {
     margin-left: auto;
 }
 
-.list {
-    
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .team-title {
 
@@ -420,13 +421,11 @@ footer {
 
         /*Портфоліо*/
 
-.container .portfolio {
+.portfolio {
 
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
 }
 
 .portfolio-button {
@@ -449,12 +448,8 @@ footer {
 
 .btn {
 
-    
-    width: 575px;
-    padding-top: 94px;
-    padding-bottom: 34px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
+    gap: 10px;
     margin-bottom: 50px;
 }
 
@@ -474,7 +469,8 @@ footer {
     
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    justify-content: space-between;
+    
 
 }
 
@@ -492,11 +488,6 @@ footer {
     margin-right: 0;
 }
 
-.portfolio-photo {
-
-    margin-bottom: 20px;
-}
-
 .flex-hat {
 
     padding: 20px 24px;
@@ -505,8 +496,6 @@ footer {
 .portfolio-title {
 
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
     
     color: var(--title-text-color);
     font-weight: 700;
@@ -517,10 +506,6 @@ footer {
 
 .portfolio-text {
 
-    
-    padding-left: 24px;
-    padding-right: 24px;
-    
     color: var(--paragraph-text-color);
     font-weight: 400;
     font-size: 16px;
